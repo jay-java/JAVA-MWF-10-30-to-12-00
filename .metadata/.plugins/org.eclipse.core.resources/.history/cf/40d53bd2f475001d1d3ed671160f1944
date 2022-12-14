@@ -1,0 +1,23 @@
+class Mobile1{
+	int price;
+	String com;
+	public int getPrice() {
+		return price;
+	}
+	public String getCom() {
+		return com;
+	}
+	public Mobile1(int price,String com) {
+		this.price=price;
+		this.com = com;
+	}
+	@Override
+	public String toString() {
+		return "price : "+price+" comapanyuy : "+com;
+	}
+}
+public class ComparatorDemo {
+	public static void main(String[] args) {
+		
+	}
+}

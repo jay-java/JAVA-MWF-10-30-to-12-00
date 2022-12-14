@@ -1,0 +1,16 @@
+class Mobile{
+	int price;
+	String com;
+	public Mobile(int price,String com) {
+		this.price=price;
+		this.com = com;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+}
+public class ComparableDemo {
+
+}

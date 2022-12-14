@@ -1,0 +1,9 @@
+class TV{
+	private long price;
+	private Stirng company;
+}
+public class LIstPractical {
+	public static void main(String[] args) {
+		
+	}
+}

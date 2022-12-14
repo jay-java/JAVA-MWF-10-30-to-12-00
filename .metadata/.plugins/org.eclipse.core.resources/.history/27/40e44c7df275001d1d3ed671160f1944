@@ -1,0 +1,10 @@
+class Mobile{
+	int price;
+	String com;
+	int ram;
+	int storage;
+	
+}
+public class ComparableDemo {
+
+}

@@ -1,0 +1,11 @@
+class Mobile{
+	int price;
+	String com;
+	public Mobile() {
+		
+	}
+	
+}
+public class ComparableDemo {
+
+}

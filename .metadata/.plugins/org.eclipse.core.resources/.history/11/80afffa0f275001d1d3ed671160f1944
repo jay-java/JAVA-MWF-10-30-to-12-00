@@ -1,0 +1,15 @@
+class Mobile{
+	int price;
+	String com;
+	public Mobile(int price,String com) {
+		this.price=price;
+		this.com = com;
+	}
+	@Override
+	public String toString() {
+		return "price : "+price+" comapanyuy : "+com;
+	}
+}
+public class ComparableDemo {
+
+}

@@ -1,0 +1,16 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapDemo {
+	public static void main(String[] args) {
+		Map map = new HashMap<>();
+		map.put(1,"c");	//entry
+		map.put(2,"C++");
+		map.put("java",3);
+		map.put(null,"android");
+		map.put(null,null);
+		System.out.println(map);
+		Set set = map.entrySet();
+		
+	}
+}

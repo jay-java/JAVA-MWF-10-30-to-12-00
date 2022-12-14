@@ -1,0 +1,33 @@
+class Mobile implements Comparable<Mobile>{
+	int price;
+	String com;
+	public int getPrice() {
+		return price;
+	}
+	public String getCom() {
+		return com;
+	}
+	public Mobile(int price,String com) {
+		this.price=price;
+		this.com = com;
+	}
+	@Override
+	public String toString() {
+		return "price : "+price+" comapanyuy : "+com;
+	}
+	@Override
+	public int compareTo(Mobile o) {
+		if() {
+			
+		}
+	}
+}
+public class ComparableDemo {
+	public static void main(String[] args) {
+		Mobile m1= new Mobile(10000, "MI");
+		Mobile m2= new Mobile(20000, "VIVO");
+		Mobile m3= new Mobile(50000, "APPLE");
+		Mobile m4= new Mobile(40000, "SAMSUNG");
+		Mobile m5= new Mobile(30000, "REDMI");
+	}
+}
