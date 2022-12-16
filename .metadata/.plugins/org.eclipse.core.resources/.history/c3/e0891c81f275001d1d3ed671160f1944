@@ -1,9 +1,0 @@
-class Mobile{
-	int price;
-	String com;
-	
-	
-}
-public class ComparableDemo {
-
-}

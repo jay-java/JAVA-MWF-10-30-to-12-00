@@ -138,6 +138,7 @@ public class SwingDemo implements ActionListener {
 					t5.setText(rs.getString("email"));
 				}
 				else {
+					new PopUpWindow();
 					System.out.println("data not found");
 					t1.setText("");
 					t2.setText("");
